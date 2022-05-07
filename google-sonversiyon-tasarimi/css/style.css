@@ -1,0 +1,241 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+/*Header started here*/
+    .header{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+    }
+
+    .icon{
+        width: 21px;
+        height: 21px;
+        position: relative;
+        float: right;
+        left:429px;
+        top:35%;
+        background-color:white;
+        
+    }
+    .profil
+    {   
+        border-radius: 75px;
+        width: 32px;
+        height: 32px;
+        position: relative;
+        float: right;
+        left:500px;
+        top:23%;
+        background-color:white;
+    }
+    .profil img{
+        width: 32px;
+        height: 32px;
+        border-radius: 75px;
+    }
+/*Header finished here*/
+
+/*Navbar started here*/
+    .up-menu{
+            width: 500px;
+            height: 60px;
+            position: relative;
+            background-color: white;
+            float: right;
+    }
+
+    .up-menu ul li{
+        float: left;
+        padding: 6px;
+        list-style-type: none;
+        text-decoration: none;
+     
+
+    }
+    .up-menu ul a{
+        text-decoration: none;
+        color:black;
+        font-size: 13px;
+        font-family:Arial, sans-serif;
+    }
+    .up-menu ul{
+        margin-left:237px;
+    }
+/*Navbar finished here*/
+
+/*Container started here*/
+    .logo-container{
+        width: 980px;
+        height: 170px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top:1px;
+
+        
+
+    }
+
+    .search{
+       position: relative;
+        width: 980px;
+        height: 220px;
+        background-color:white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+    }
+
+    .footer{
+        width: 100%;
+        height:95px;
+        background-color: #f2f2f2;
+        position: relative;
+        display: block;
+        top:141px;
+    }
+/*Input search started here*/
+#search{
+    position: relative;
+    display: block;
+    width:575px;
+    height: 45px;
+    border-radius: 30px;
+    border:1px solid #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    top:2px;
+}
+#search:hover{
+    box-shadow:1px 1px 8px 0px #b6b6b6;
+}
+
+#search-icon{
+    position: relative;
+    margin-left: 220px;
+    bottom: 40px;
+}
+#voice-icon{
+    position: relative;
+    margin-left: 500px;
+    bottom: 33px;
+}
+#keyboard{
+    position: relative;
+    margin-left:705px;
+    bottom: 74px;
+    
+}
+#button1{
+    padding:10px;
+    position: relative;
+    width: 125px;
+    border:1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color:#3c4043;
+    text-align: center;
+    cursor: pointer;
+    margin:11px 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    margin-left:-410px;
+    bottom: 10px;
+}
+#button2{
+    padding:10px;
+    position: relative;
+    width: 215px;
+    border:1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color:#3c4043;
+    text-align: center;
+    cursor: pointer;
+    margin:11px 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    bottom: 10px;
+}
+#button1:hover{
+    border:1px solid #cccccc;
+    
+}
+#button2:hover{
+    border:1px solid #cccccc;
+    
+}
+/*Input search finished here*/
+/*Container finished here*/
+
+/* Footer started here*/
+
+        /* Down-navbar-left started here*/
+        .down-navbar-left{
+            position: relative;
+            bottom: 24px;
+            margin-left:-25px
+        }
+        .down-navbar-left ul li{
+            float: left;
+            padding: 5px;
+            list-style-type: none;
+            text-decoration: none;
+            bottom: 10px;
+        
+
+        }
+        .down-navbar-left ul a{
+            text-decoration: none;
+            color:#70757a;
+            font-size: 14px;
+            font-family:Arial, sans-serif;
+            padding: 15px;
+        }
+        /* Down-navbar-left finished here*/
+        /* Down-navbar-right started here*/
+            .down-navbar-right{
+                position: relative;
+                bottom: 19px;
+             
+              
+                
+               
+            }
+            .down-navbar-right ul li{
+                float: right;
+                padding: -3px;
+                list-style-type: none;
+                text-decoration: none;
+                margin-right: 33px;
+
+                
+                
+            
+
+            }
+            .down-navbar-right ul a{
+                text-decoration: none;
+                color:#70757a;
+                font-size: 14px;
+                font-family:Arial, sans-serif;
+                
+               
+                
+               
+            }
+        /* Down-navbar-right finished here*/
+/* Footer finished here*/
